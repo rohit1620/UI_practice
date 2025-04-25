@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.nav{
+   
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+.container{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img{
+    height: 50px;
+    width: 150px;
+}
+.container i{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sectionFirst{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 40px;
+    
+}
+.sectionFirst img{
+   height: 480px;
+   width: 500px;
+}
+.divFirst{
+    padding: 30px;
+    /* padding-right: 0px; */
+    /* margin: auto; */
+    /* border: 1px solid red; */
+    /* margin-right: 90px; */
+    /* margin: auto; */
+  
+}
+.btnOne{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+  opacity: 0.7;
+}
+.sectionFirst h1{
+    font-size: 60px;
+    font-weight:700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.divFirst p{
+    font-size: small;
+   line-height: 1.4;
+    font-weight: lighter;
+  margin-bottom: 30px;
+}
+.btnTwo{
+    background-color: orange;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    opacity: 0.6;
+    color: white;
+    font-weight: bold;
+}
+/* @media only screen and (max-width: 768px) {
+
+} */
+
+/* @media only screen and (max-width:768){
+    .sectionFirst{
+       background-color: blue;
+    }
+} */
+
+@media (max-width: 480px) {
+    .sectionFirst {
+      /* background-color: blue; */
+      display: block;
+
+    }
+    .sectionFirst img{
+        height: 380px;
+        width: 300px;
+     }
+     .sectionFirst img{
+        margin-left: 30px;
+     }
+     .sectionFirst .divFirst{
+        margin-left: 60px;
+     }
+     .divFirst p{
+        text-align: justify;
+    }
+    .divFirst>p>br{
+        display: none;
+    }
+  }
